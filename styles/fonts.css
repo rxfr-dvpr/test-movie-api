@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Marcellus';
+    src: url(../fonts/Marcellus-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lemon';
+    src: url(../fonts/Lemon-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesomeRegular';
+    src: url(../fonts/fa-regular-400.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesomeBrands';
+    src: url(../fonts/fa-brands-400.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesomeSolid';
+    src: url(../fonts/fa-solid-900.ttf);
+    font-weight: 900;
+}

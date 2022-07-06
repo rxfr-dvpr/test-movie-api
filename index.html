@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Watch</title>
+    <link rel="stylesheet" href="styles/swiper.css" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body id="body">
+  <div class="anime">
+      <div class="circle"></div>
+  </div>
+  
+    <div class="main__content">
+        <span class="main__close icon-reg"></span>
+        <div class="container">
+            <form action="" class="form__main">
+                <input type="text" placeholder="search something?" class="header__input">
+                <button class="icon-reg"></button>
+            </form>
+            <div class="main__block">
+               <!-- сюда отрендеряться все топовые фильмы вместе с пагинацией или результаты поиска -->
+            </div>
+            <div class="pagination">
+                <!-- пагинация -->
+            </div>
+            <div class="main__solo">
+          
+            </div>
+        </div>
+    </div>
+    
+    <header class="header">
+        <div class="navigate">
+            <div class="container">
+                <nav class="header__nav">
+                    <a href="#" class="logo main__close"><span class="logo__span">m</span> box</a>
+                    <div class="header__items">
+                        <ul class="header__list">
+                            <li><a href="#" class="header__link main__close">Home</a></li>
+                            <li><a href="#" class="header__link">TV Shows</a></li>
+                            <li><a href="#" class="header__link movies__link">Movies</a></li>
+                            <li><a href="#" class="header__link">Series</a></li>
+                        </ul>
+                        <ul class="header__list header__list-nth2">
+                            <li>
+                                <a href="#" class="header__icon search__link ">
+                                    <span class="icon-reg"></span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="header__icon icon-reg">
+                                <!-- <span class="favourite">0</span> -->
+                            </a></li>
+                            <li><a href="#" class="header__icon icon-reg"></a></li>
+                        </ul>
+                    </div>
+                    <a href="" class="header__btn">
+                        <span class="bars"></span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="header__abs"></div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__text">
+                    <!-- <h1 class="header__title">Доктор Стрендж 2</h1>
+                    <div class="header__balls">
+                        <span class="header__year">2022</span>
+                        <span class="logo__span header__rating  header__year ">14+</span>
+                        <div class="header__seasons header__year">0+</div>
+                        <div class="header__stars header__year"><span class="icon-solid"></span><strong>8.8</strong></div>
+                    </div>
+                    <p class="header__descr">
+                        какое-то описание
+                    </p>
+                    <div class="header__buttons">
+                        <a href="#" class="header__watch"><span class="icon-solid"></span>watch</a>
+                        <a href="#" class="header__more header__watch movie__item">More information</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="trend__tv">
+            <div class="container">
+                <h2 class="trend__tv-title">Trending TV Shows <span class="icon-reg"></span></h2>
+                <div class="swiper-container trend__tv-slider">
+                    <div class="swiper-wrapper"></div>
+                    <!-- <div class="swiper-wrapper">
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                    </div> -->
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="popular__genres">
+            <div class="container">
+                <h2 class="popular__genres-title trend__tv-title">Popular Genres <span class="icon-reg"></span></h2>
+                <div class="popular__genres-grid">
+                    <div class="popular__genres-item">
+                        <img src="images/hearts.svg" alt="">
+                        <span class="popular__genres-span">Romance</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/cinema.svg" alt="">
+                        <span class="popular__genres-span">Drama</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/documentary.svg" alt="">
+                        <span class="popular__genres-span">Historical</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/killer.svg" alt="">
+                        <span class="popular__genres-span">Action</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/rocket.svg" alt="">
+                        <span class="popular__genres-span">Sci-Fi</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/ghost.svg" alt="">
+                        <span class="popular__genres-span">Horror</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/smile.svg" alt="">
+                        <span class="popular__genres-span">Comedy</span>
+                    </div>
+                    <div class="popular__genres-item">
+                        <img src="images/castle.svg" alt="">
+                        <span class="popular__genres-span">Documentary</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular__actors">
+            <div class="container">
+                <h2 class="trend__tv-title popular__actors-title">
+                    <!-- рендер названия текущего месяца -->
+                    awaited movies of &nbsp;<strong>may 2022</strong>
+                    <span class="icon-reg"></span>
+                </h2>
+                <div class="swiper-container trend__tv-slider popular__actors-slider">
+                    <div class="swiper-wrapper"></div>
+                    <!-- <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                       <div class="swiper-slide">
+                        <div class="movie__item">
+                            <img src="images/blackEcho.png" alt="" loading="lazy">
+                        </div>
+                       </div>
+                    </div> -->
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+        <div class="coming__soon">
+            <div class="container">
+                <div class="coming__soon-block">
+                    <!-- рандомное изображение какого-нибудь ожидаемого фильма -->
+                    <img src="images/bigBuckBunny.png" alt="" loading="lazy">
+                    <div class="coming__block-neon">
+                        <div class="coming__soon-img">
+                            <p class="year">2022</p>
+                        </div>
+                        <span class="coming__soon-span">comming soon...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="register__now">
+            <div class="container">
+                <div class="register__now-block">
+                    <p class="register__now-descr">Are You New Here ?
+                        Don’t wait, Register Now. </p>
+                    <a href="#" class="register__now-link header__watch">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="#" class="logo"><span class="logo__span">m</span> box</a>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                        <a href="#" class="footer__social-link"><span class="icon-brand"></span></a>
+                    </div>
+                </div>
+                <div class="footer__lists">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Voice over and Subtitle</a></li>
+                        <li><a href="#" class="footer__link">Media Center</a></li>
+                        <li><a href="#" class="footer__link">Privacy</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Voice Description</a></li>
+                        <li><a href="#" class="footer__link">Investor Relations</a></li>
+                        <li><a href="#" class="footer__link">Legal Provisions</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Help Center</a></li>
+                        <li><a href="#" class="footer__link">Job Opportunities</a></li>
+                        <li><a href="#" class="footer__link">Cookies Preferences</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Gift Cards</a></li>
+                        <li><a href="#" class="footer__link">Terms of Use</a></li>
+                        <li><a href="#" class="footer__link">Corporate Informations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
+
+
